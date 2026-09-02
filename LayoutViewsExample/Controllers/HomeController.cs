@@ -4,7 +4,7 @@ namespace LayoutViewsExample.Controllers
 {
     public class HomeController : Controller
     {
-
+        [Route("home")]
         [Route("/")]
         public IActionResult Index()
         {
